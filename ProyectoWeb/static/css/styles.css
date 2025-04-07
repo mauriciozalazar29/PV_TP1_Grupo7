@@ -1,4 +1,4 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
     background-color: #fff;
@@ -6,9 +6,7 @@ body{
     padding: 15px;
     margin: auto;
 }
-
 /*Encabezado*/
-
 header{
     background-color: #00686c;
     color:#ffd;
@@ -23,9 +21,7 @@ header h1 {
     font-size: 40px;
     font-weight: bold;
 }
-
 /*Navegacion*/
-
 nav{
     background-color: #20615d;
     padding: auto;
@@ -47,98 +43,55 @@ nav a {
     font-weight: bold;
 }
 
-/*Contenido*/
-
-/* Estilos mejorados para la tabla de tradiciones culturales */
 table {
     width: 100%;
+    margin: 20px 0;
     border-collapse: collapse;
     table-layout: fixed;
 }
 
-th {
-    padding: 10px;
+td{
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 0;
     text-align: center;
+    font-size: 10px;
     font-weight: bold;
-    background-color: #f5f5f5;
+    background-color: #fff;
 }
 
-td {
-    border:none;
-    height: 250px; 
-    position: relative; 
-    padding: 0; 
-}
-
-/* Contenedor para centrar imágenes perfectamente */
-td .img-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
+table img{
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
+    border-radius: 1px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease;
 }
 
-/* Estilos para las imágenes */
-td img {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: contain;
-    border-radius: 7px;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+table img:hover {
+    transform: scale(1.05);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Pie de Pagina*/
-
-footer{
-    background-color: #5f9c97;
-    text-align:right;
-    border-radius: 5px;
+footer {
+    background-color: #00686c;
+    color: #ffd;
+    text-align: right;
     padding: 20px;
-    margin-top: 20%;
+    border-radius: 10px;
+    margin-top: 10%;
 }
 
 footer h2{
     font-size: 1.5em;
     margin-bottom: 10px;
 }
-
+/* Pie de Pagina*/
 address {
     font-style: normal;
     line-height: 1.6;
-}
-
-
-/*Formulario Contacto*/
-
-section{
-    text-align: center;
 }
 
 label {
