@@ -93,6 +93,16 @@ address {
     line-height: 1.6;
 }
 
+.redes a {
+    color: #ffd;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.redes a:hover {
+    text-decoration: underline;
+}
+
 /*Formulario*/
 form{
     width: 99%;
@@ -113,3 +123,4 @@ input{
 label {
     font-weight: bold;
 }
+
