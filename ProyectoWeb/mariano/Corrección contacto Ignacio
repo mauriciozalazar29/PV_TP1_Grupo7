@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Cafayate</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+    <nav>
+        <ul>
+           <li><a href="index.html" title="PAGINA PRINCIPAL">Pagina Principal</a></li>
+           <li><a href="museos.html" title="MUSEOS">Museos</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Envianos tu consulta</h2>
+        <article>
+            <h3>Formulario de contacto</h3>
+            <p>Complete el siguiente formulario para contactarnos:</p>
+            <form action="procesar_formulario.php" method="POST">
+                <label for="nombre">Nombre y Apellido</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Juan Perez" required><br>
+
+                <label for="correo">Email</label>
+                <input type="email" id="correo" name="correo" placeholder="juanperez@gmail.com" required><br>
+                
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="011-44588798" required><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </article>
+    </section>
+    <footer>
+        <h2>Secretaría de Turismo, Municipalidad de Cafayate</h2>
+        <address>
+        Nuestra Señora del Rosario N° 9<br>
+        (4427) Cafayate, Salta<br>
+        WhatsApp: +54 9 3868 535070 (sólo mensajes)<br> 
+        Teléfono: +54 3868 432000 / 432001 / 437666 <br>
+        Abierto diariamente de 8:30hs a 20:30hs<br>
+        </address>
+    </footer>
+</body>
+</html>
